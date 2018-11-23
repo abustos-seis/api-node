@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-base-back",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.1.0",
+    "docxtemplater": "^3.2.3",
+    "express": "^4.16.4",
+    "fast-csv": "^2.4.1",
+    "jszip": "^2.6.1",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.2",
+    "mysql": "^2.16.0",
+    "nodemailer": "^4.4.1",
+    "pptxgenjs": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
